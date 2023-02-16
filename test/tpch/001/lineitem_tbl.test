@@ -1,5 +1,6 @@
-INSERT INTO lineitem VALUES (
 
+statement ok
+INSERT INTO lineitem VALUES 
   (1,1552,93,1,17,24710.35,0.04,0.02,'N','O',date('1996-03-13'),date('1996-02-12'),date('1996-03-22'),'DELIVER IN PERSON','TRUCK','egular courts above the'),
   (1,674,75,2,36,56688.12,0.09,0.06,'N','O',date('1996-04-12'),date('1996-02-28'),date('1996-04-20'),'TAKE BACK RETURN','MAIL','ly final dependencies: slyly bold '),
   (1,637,38,3,8,12301.04,0.10,0.02,'N','O',date('1996-01-29'),date('1996-03-05'),date('1996-01-31'),'TAKE BACK RETURN','REG AIR','riously. regular, express dep'),
@@ -60176,4 +60177,3 @@ INSERT INTO lineitem VALUES (
   (60000,585,16,5,31,46052.98,0.00,0.05,'N','O',date('1995-08-06'),date('1995-07-18'),date('1995-08-19'),'TAKE BACK RETURN','TRUCK','ly even instr'),
   (60000,836,3,6,45,78157.35,0.04,0.08,'N','O',date('1995-07-23'),date('1995-07-17'),date('1995-07-24'),'DELIVER IN PERSON','TRUCK','ke final packages. carefully final fo')
 
-)
